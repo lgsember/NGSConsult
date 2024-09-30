@@ -16,7 +16,7 @@ export function Home() {
   const img = new Image();
   img.src = bannerSrc;
   img.onerror = () => {
-    bannerSrc = "src/img/home.png";
+    bannerSrc = "/img/home.png";
   };
 
   const bannerProps = {
