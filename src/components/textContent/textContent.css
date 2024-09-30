@@ -1,0 +1,24 @@
+.text-content {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.text-content h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.5em;
+  color: rgb(19, 19, 121);
+  text-shadow: 1px 1px 1px aliceblue;
+}
+
+.text-content h2 {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  color: rgb(24, 24, 147);
+}
+
+.text-content p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  color: #333;
+  color: rgb(49, 49, 210);
+}
