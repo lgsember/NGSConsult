@@ -80,12 +80,12 @@ export function Contact() {
     },
   ];
 
-  let bannerSrc = "src/img/contact.png";
+  let bannerSrc = "https://ibb.co/Tv6Rdrg";
 
   const img = new Image();
   img.src = bannerSrc;
   img.onerror = () => {
-    bannerSrc = "https://ibb.co/Tv6Rdrg";
+    bannerSrc = "src/img/contact.png";
   };
 
   const bannerProps = {
