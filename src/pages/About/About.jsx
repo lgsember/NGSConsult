@@ -5,6 +5,20 @@ import { Banner } from "../../components/banner/banner";
 import { TextAbout } from "../../components/textAbout/TextAbout";
 
 export function About() {
+
+  let bannerSrc = "src/img/about.png";
+
+  const img = new Image();
+  img.src = bannerSrc;
+  img.onerror = () => {
+    bannerSrc = "https://ibb.co/z7cDT62";
+  };
+
+  const bannerProps = {
+    src: bannerSrc,
+    alt: "foto profile de Nair sentada",
+  };
+
   return (
     <div className="flex items-center justify-center min-h-[calc(100vh-160px)] p-4 overflow-hidden">
       <div className="bg-white bg-opacity-10 backdrop-blur-md rounded-lg shadow-lg p-8 max-w-6xl w-full">
@@ -34,11 +48,7 @@ export function About() {
 
           <div className="md:w-1/2 flex justify-center items-center">
             <div className="w-full max-w-md h-auto animate-[slideInFromRight_1s_ease-out] opacity-0" style={{ animationFillMode: 'forwards' }}>
-              <Banner
-                src="src/img/about.png"
-                alt="foto Nair sentada profile"
-                className="w-full h-auto object-contain rounded-lg"
-              />
+            <Banner {...bannerProps} />
             </div>
           </div>
         </div>

@@ -11,8 +11,16 @@ export function Home() {
     description: "Solução eficaz na palma da sua mão",
   };
 
+  let bannerSrc = "src/img/home.png";
+
+  const img = new Image();
+  img.src = bannerSrc;
+  img.onerror = () => {
+    bannerSrc = "https://ibb.co/XkbbLfP";
+  };
+
   const bannerProps = {
-    src: "src/img/home.png",
+    src: bannerSrc,
     alt: "foto profile de Nair",
   };
 
