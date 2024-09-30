@@ -11,12 +11,12 @@ export function Home() {
     description: "Solução eficaz na palma da sua mão",
   };
 
-  let bannerSrc = "src/img/home.png";
+  let bannerSrc = "https://ibb.co/XkbbLfP";
 
   const img = new Image();
   img.src = bannerSrc;
   img.onerror = () => {
-    bannerSrc = "https://ibb.co/XkbbLfP";
+    bannerSrc = "src/img/home.png";
   };
 
   const bannerProps = {
