@@ -11,7 +11,7 @@ export function Home() {
     description: "Solução eficaz na palma da sua mão",
   };
 
-  let bannerSrc = "/src/img/home.png";
+  let bannerSrc = "https://via.placeholder.com/500";
 
   const iconLinks = [
     {
