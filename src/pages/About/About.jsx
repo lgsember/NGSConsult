@@ -6,13 +6,7 @@ import { TextAbout } from "../../components/textAbout/TextAbout";
 
 export function About() {
 
-  let bannerSrc = "/public/img/about.png";
-
-  const img = new Image();
-  img.src = bannerSrc;
-  img.onerror = () => {
-    bannerSrc = "https://ibb.co/z7cDT62";
-  };
+  let bannerSrc = "/src/img/about.png";
 
   const bannerProps = {
     src: bannerSrc,
