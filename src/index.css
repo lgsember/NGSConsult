@@ -12,7 +12,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: url('/src/img/bg_gwhite.jpg');
+  background-image: url('/public/img/bg_gwhite.jpg');
   background-size: 100% auto;
   background-repeat: repeat-y;
   min-height: 100vh;

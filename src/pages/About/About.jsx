@@ -6,12 +6,12 @@ import { TextAbout } from "../../components/textAbout/TextAbout";
 
 export function About() {
 
-  let bannerSrc = "https://ibb.co/z7cDT62";
+  let bannerSrc = "/public/img/about.png";
 
   const img = new Image();
   img.src = bannerSrc;
   img.onerror = () => {
-    bannerSrc = "src/img/about.png";
+    bannerSrc = "https://ibb.co/z7cDT62";
   };
 
   const bannerProps = {
