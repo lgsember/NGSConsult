@@ -82,11 +82,6 @@ export function Contact() {
 
   let bannerSrc = "/src/img/contact.png";
 
-  const bannerProps = {
-    src: bannerSrc,
-    alt: "foto de Nair sentada",
-  };
-
   return (
     <div className="flex flex-col md:flex-row items-start gap-8 px-4 md:px-8 py-8 min-h-[calc(100vh-160px)]">
       <div className="flex-1 mt-16 animate-[slideInFromLeft_1s_ease-out]">
@@ -125,7 +120,10 @@ export function Contact() {
       </div>
   
       <div className="flex-1 flex justify-center items-start animate-[slideInFromRight_1s_ease-out]">
-        <Banner {...bannerProps} />
+      <Banner 
+              src={bannerSrc} 
+              alt="Nair formal"
+            />
       </div>
     </div>
   );

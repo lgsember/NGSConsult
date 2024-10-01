@@ -13,11 +13,6 @@ export function Home() {
 
   let bannerSrc = "/src/img/home.png";
 
-  const bannerProps = {
-    src: bannerSrc,
-    alt: "foto profile de Nair",
-  };
-
   const iconLinks = [
     {
       type: "file",
@@ -58,7 +53,10 @@ export function Home() {
 
         <div className="md:w-1/2 flex justify-center items-center animate-slideIn">
           <div className="w-full h-full max-h-[500px]">
-            <Banner {...bannerProps} />
+          <Banner 
+              src={bannerSrc} 
+              alt="Profile de Nair"
+            />
           </div>
         </div>
 
