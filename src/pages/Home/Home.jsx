@@ -11,8 +11,6 @@ export function Home() {
     description: "Solução eficaz na palma da sua mão",
   };
 
-  let bannerSrc = "https://via.placeholder.com/500";
-
   const iconLinks = [
     {
       type: "file",
@@ -54,7 +52,7 @@ export function Home() {
         <div className="md:w-1/2 flex justify-center items-center animate-slideIn">
           <div className="w-full h-full max-h-[500px]">
           <Banner 
-              src={bannerSrc} 
+              src="https://ibb.co/XkbbLfP"
               alt="Profile de Nair"
             />
           </div>
