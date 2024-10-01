@@ -80,7 +80,7 @@ export function Contact() {
     },
   ];
 
-  let bannerSrc = "/src/img/contact.png";
+  let bannerSrc = "https://i.ibb.co/ZL5K7NM/contact.png";
 
   return (
     <div className="flex flex-col md:flex-row items-start gap-8 px-4 md:px-8 py-8 min-h-[calc(100vh-160px)]">

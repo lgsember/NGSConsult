@@ -6,7 +6,7 @@ import { TextAbout } from "../../components/textAbout/TextAbout";
 
 export function About() {
 
-  let bannerSrc = "/src/img/about.png";
+  let bannerSrc = "https://i.ibb.co/QCBt3DH/about.png";
 
   return (
     <div className="flex items-center justify-center min-h-[calc(100vh-160px)] p-4 overflow-hidden">

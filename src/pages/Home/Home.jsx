@@ -52,7 +52,7 @@ export function Home() {
         <div className="md:w-1/2 flex justify-center items-center animate-slideIn">
           <div className="w-full h-full max-h-[500px]">
           <Banner 
-              src="https://ibb.co/XkbbLfP"
+              src="https://i.ibb.co/Lh88RDy/home.png"
               alt="Profile de Nair"
             />
           </div>
