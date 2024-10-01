@@ -24,6 +24,8 @@ export function Home() {
     },
   ];
 
+  let bannerSrc = "https://i.ibb.co/T4VzcFD/home.png";
+
   return (
     <div className="flex items-center justify-center min-h-[calc(105vh-80px)] p-4">
       <div className="flex flex-col md:flex-row items-center justify-center bg-white bg-opacity-80 rounded-[5%] p-8 shadow-md max-w-5xl animate-fadeIn">
@@ -52,7 +54,7 @@ export function Home() {
         <div className="md:w-1/2 flex justify-center items-center animate-slideIn">
           <div className="w-full h-full max-h-[500px]">
           <Banner 
-              src="https://i.ibb.co/Lh88RDy/home.png"
+              src={bannerSrc}
               alt="Profile de Nair"
             />
           </div>
